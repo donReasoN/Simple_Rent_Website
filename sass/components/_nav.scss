@@ -1,0 +1,109 @@
+.navigation {
+    position: fixed;
+    z-index: 1;
+    height: 7rem;
+    width: 100%;
+    font-size: $font-size-medium;
+    font-weight: 400;
+    @include clearfix;
+
+    &__cent {
+        position: relative;
+        top: 3.5rem;
+        left: 0;
+        transform: translateY(-50%);
+        height: 4rem;
+        max-width: 140rem;
+        margin: 0 auto;
+    }
+
+    &__logo-box {
+        position: relative;
+        float: left;
+        height: 4rem;
+        width: 15%;
+        margin-left: 2rem;
+        cursor: pointer;
+
+        &:hover .navigation__logo-span::before {
+            width: 13rem;
+        }
+    }
+
+
+    &__logo-svg {
+        height: 4rem;
+    }
+
+    &__logo-span {
+        position: absolute;
+        top: 80%;
+        right: 20%;
+        color: $color-gray-light;
+        font-size: $font-size-small;
+
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            margin-left: -5rem;
+            width: 10rem;
+            height: 1px;
+            background-color: $color-gray-light;
+            transition: .5s ease-out;
+        }
+    }
+
+    &__burger {
+        display: none;
+        // position: absolute;
+        // right: 2.5rem;
+        // width: 4rem;
+        // height: 4rem;
+        // border: none;
+        // background-color: transparent;
+    }
+
+    &__nav {
+        width: 60%;
+        float: right;
+        margin-right: 2rem;
+        @include clearfix;
+    }
+
+    &__list {
+        list-style: none;
+        text-align: center;
+        @include clearfix;
+    }
+
+    &__item {
+        position: relative;
+        width: 20%;
+        float: left;
+        height: 4rem;
+        line-height: 4rem;
+
+        &:not(:last-child)::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            transform: translateY(-50%);
+            width: 1px;
+            height: 25%;
+            background-color: $color-gray-light;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-gray-light;
+        transition: 0.3s;
+
+        &:hover {
+            color: $color-light-cherry;
+        }
+    }
+}

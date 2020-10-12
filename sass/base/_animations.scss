@@ -1,0 +1,50 @@
+@keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(-10rem);
+    }
+  
+    80% {
+      transform: translateY(1.5rem);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes moveInBottomScroll {
+    0% {
+      opacity: 0;
+      top: 65%;
+    }
+  
+    80% {
+      top: 82%;
+    }
+  
+    100% {
+      opacity: 1;
+      top: 80%;
+    }
+  }
+
+@keyframes buttonShake {
+    65% {transform: translate(-50%, -50%)}
+    70% {transform: translate(-50%, -80%)}
+    75% {transform: translate(-50%, -20%)}
+    80% {transform: translate(-50%, -80%)}
+    85% {transform: translate(-50%, -20%)}
+    90% {transform: translate(-50%, -50%)}
+  }
+
+  @keyframes makeVisible {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }

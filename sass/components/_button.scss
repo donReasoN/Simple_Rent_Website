@@ -1,0 +1,17 @@
+.btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 50%;
+    animation: moveInBottomScroll 1s 4s ease-out 1,
+    buttonShake 3.5s 6s linear infinite;
+    animation-fill-mode: backwards;
+
+    &__scroll {
+        width: 3rem;
+        height: 3rem;
+        background-image: url('../img/buttonScroll.svg');
+    }
+}

@@ -1,0 +1,65 @@
+.heading__primary {
+    font-size: $font-size-head-big;
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+    margin-bottom: 2rem;
+    animation: moveInBottom 0.5s 0.5s ease-out;
+    animation-fill-mode: backwards;
+
+    &-span {
+        color: $color-light-cherry;
+    }
+}
+
+.heading-secondary {
+    font-size: $font-size-heading-secoundary;
+    font-weight: 400;
+
+    &--white {
+        color: $color-gray-light;
+    }
+}
+
+.heading-tertiary {
+    font-size: $font-size-heading-tertiary;
+    margin-bottom: 1rem;
+}
+
+.heading-fourth {
+    font-size: $font-size-heading-fourth;
+}
+
+.heading-fifth {
+    font-size: $font-size-heading-fifth;
+
+    &--margin {
+        margin-bottom: 1rem;
+    }
+
+    &--color {
+        color: $color-gray-light;
+    }
+}
+
+.heading__sub {
+    font-size: $font-size-head-med;
+    font-weight: 300;
+    padding: 1.5rem 0;
+    letter-spacing: 0.4rem;
+    animation-name: makeVisible;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+}
+
+.heading__sub--1 {
+    animation-delay: 1.3s;
+}
+
+.heading__sub--2 {
+    animation-delay: 2.3s;
+}
+
+.heading__sub--3 {
+    animation-delay: 3.3s;
+}

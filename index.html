@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Simple Rent</title>
+        <meta name="description"
+            content="Kwiaciarnia w Trójmieście, która robi niesamowite kwiaty w super cenach. Śluby, pogrzeby, dzień nauczyciela? Wpadaj!">
+
+       
+        <link href="https://fonts.googleapis.com/css?family=Blinker:300,400,600,700&display=swap&subset=latin-ext"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/dbc3141a1c.js"></script>
+        
+        <link rel="stylesheet" href="css/style.css">
+
+        
+        <meta name='keywords' content='kwiaciarnia, kwiaty, pogrzeby, bukiety, kwiaty na ślub, ubieranei sali'>
+
+        
+        <meta name='robots' content='index,follow'>
+
+        
+        <link rel="icon" href="favicon.png">
+        
+        <meta name='url' content='http://nazwadomenty.pl'>
+        <meta property="og:title" content="Najlepsza kwiaciarnia w Gdańsku" />
+        <meta property="og:image" content="http://nazwadomeny.pl/img/fbook.png" />
+      
+        <meta property="og:description" content="Projekt od podstaw do pierwszej pracy jako front-end developer" />
+        <meta property="og:type" content="article" />
+    </head>
+
+<body>
+
+    <div class="navigation">
+        <div class="navigation__cent">
+            <div class="navigation__logo-box">
+                <img src="img/simple.svg" alt="Logo firmy Simple-Rent" class="navigation__logo-svg">
+                <span class="navigation__logo-span">Be simple</span>
+            </div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">O firmie</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Oferta</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Nasi klienci</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Praca</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="navigation__burger" type="button">
+                <i class="navigation__burger-i"></i>
+            </button>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header__text-box">
+            <h1 class="heading__primary"><span class="heading__primary-span">Simple Rent</span> zaprasza do współpracy
+            </h1>
+            <p class="heading__sub heading__sub--1">Logistyka</p>
+            <p class="heading__sub heading__sub--2">Zarządzanie</p>
+            <p class="heading__sub heading__sub--3">Transport</p>
+        </div>
+
+        <button class="btn">
+            <div class="btn__scroll"></div>
+        </button>
+    </header>
+
+    <section class="about">
+        <div class="u-center-text u-margin-top">
+            <h2 class="heading-secondary">
+                O firmie
+            </h2>
+        </div>
+        <div class="row u-margin-top u-border-bottom">
+            <div class="col-1-of-4 u-margin-bottom">
+                <div class="about__box u-center-text">
+                    <i class="about__icon fas fa-external-link-alt"></i>
+                    <p class="about__text">Firma Simple Rent powstała w 2010 roku na bazie kilkunastoletniego
+                        doświadczenia zdobytego przez jej założycieli na rynku CFM oraz Rent A Car. Doświadczenie to
+                        pomaga nam w lepszy sposób spełniać oczekiwania zarówno firm leasingowych jak i ich Klientów.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="about__box u-center-text">
+                    <i class="about__icon fas fa-globe"></i>
+                    <p class="about__text">Specjalizujemy się w szerokim zakresie obsługi pojazdów, świadczeniu
+                        usług <q>doot to door</q>, relokacjach pojazdów na terenie Polski, outsourcingu pracowników
+                        technicznych, ubezpieczeniach oraz czynnościach związanych z rejestracją samochodów i ich
+                        wydaniem.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="about__box u-center-text">
+                    <i class="about__icon fas fa-hands-helping"></i>
+                    <p class="about__text">Z racji współpracy z naszymi klientami możemy pomóc w wybraniu
+                        najodpowiedniejszej oferty leasingowej wraz z pełnym zarządzaniem flotą.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="about__box u-center-text">
+                    <i class="about__icon far fa-comments"></i>
+                    <p class="about__text">Świadczymy również usługi bezpośrednio ustalane z klientem, które nie
+                        zostały zawarte w ofercie, a celem ich jest jak najszersza i najlepsza obsługa.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer">
+        <div class="u-center-text">
+            <h2 class="heading-secondary heading-secondary--white u-margin-bottom">
+                Oferta
+            </h2>
+        </div>
+
+        <div class="row u-center-text">
+            <div class="col-1-of-2">
+                <div class="offer__box">
+                    <i class="offer__icon fas fa-door-open"></i>
+                    <h3 class="offer__title"><q>Door to door</q></h3>
+                    <p class="offer__description">
+                        Usługa polegająca na odbiorze pojazdu i dostarczeniu go we wskazane miejsce celem wykonania
+                        danej czynności np. serwis, wymiana opon, naprawa, myjnia itp.
+                    </p>
+                    <p class="offer__description">
+                        Każdorazowy odbiór i zdanie pojazdu porwierdzone zostaje protokołem zdawczo-odbiorczym.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-2">
+                <div class="offer__box">
+                    <i class="offer__icon far fa-map"></i>
+                    <h3 class="offer__title">Relokacja pojazdów</h3>
+                    <p class="offer__description">
+                        Usługa polegająca na transporcie pojazdu z punktu A do B na terenie Polski.
+                    </p>
+                    <p class="offer__description">
+                        Podobnie jak w przypadku usługi: <q>door to door</q> pobranie i zdanie pojazdu potwierdzone jest
+                        protokołem zdawczo-odbiorczym.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row u-center-text">
+            <div class="col-1-of-2">
+                <div class="offer__box">
+                    <i class="offer__icon far fa-copy"></i>
+                    <h3 class="offer__title">Rejestracja pojazdów</h3>
+                    <p class="offer__description">
+                        W imieniu klienta rejestrujemy pojazdy w wydziałach komunikacji. Odbieramy dokumenty
+                        rejestracyjne z siedziby klienta i po zarejestrowaniu samochodu dostarczamy komplet dokumentów
+                        wraz z tablicami rejestracyjnymi z powrotem do siedziby.
+                    </p>
+                    <p class="offer__description">
+                        Dokonujemy i załatwiamy pozostałe sprawy związane z koniecznością wizyty w urzędzie.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-2">
+                <div class="offer__box">
+                    <i class="offer__icon fas fa-car"></i>
+                    <h3 class="offer__title">Ubezpieczenia</h3>
+                    <p class="offer__description">
+                        Oferujemy ubezpieczenia komunikacyjne jak i majątkowe wiodących towarzystw ubezpieczeniowych.
+                    </p>
+                    <p class="offer__description">
+                        Oferta kierowana jest zarówno do firm posiadających własną flotę samochodów, jak i do osób
+                        fizycznych.
+                    </p>
+                    <p class="offer__description">
+                        Składki za ubezpieczenie mogą zostać zapłacone w całości lub w wyszczególnionych ratach.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row u-center-text">
+            <div class="offer__box offer__box--last">
+                <i class="offer__icon far fa-life-ring"></i>
+                <h3 class="offer__title">Inne</h3>
+                <p class="offer__description">
+                    Elastyczność firmy Simple Rent to jedna z cech, która wyróżnia Nas na tle konkurencji. Świadczymy
+                    wszelkiego rodzaju usługi zmierzające do kompleksowej obsługi firm leasingowych. Ich zakres jest
+                    zawsze ustalany indywidualnie z każdym klientem.
+                </p>
+            </div>
+    </section>
+
+    <section class="clients">
+        <div class="u-center-text u-margin-bottom">
+            <h2 class="heading-secondary">
+                Nasi klienci
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="client client--1">
+                <div class="client__image">
+                    <figure class="client__image-shape">
+                        <img src="img/people1.jpg" alt="" class="client__image-photo">
+                        <figcaption class="client__image-caption">Sebastian Komorowski</figcaption>
+                    </figure>
+                </div>
+                <div class="client__text">
+                    <h3 class="heading-tertiary">I had the best week ever with my family.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse libero nulla officiis
+                        error aliquid quasi provident quia alias? Expedita incidunt distinctio obcaecati repellendus
+                        nemo minima, fuga voluptate fugiat nostrum!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="client client--2 u-margin-bottom">
+                <div class="client__image">
+                    <figure class="client__image-shape">
+                        <img src="img/people1.jpg" alt="" class="client__image-photo">
+                        <figcaption class="client__image-caption">Sebastian Komorowski</figcaption>
+                    </figure>
+                </div>
+                <div class="client__text">
+                    <h3 class="heading-tertiary">I had the best week ever with my family.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse libero nulla officiis
+                        error aliquid quasi provident quia alias? Expedita incidunt distinctio obcaecati repellendus
+                        nemo minima, fuga voluptate fugiat nostrum!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="companies">
+
+                <div class="u-center-text u-margin-bottom">
+                    <h2 class="heading-secondary">
+                        Zaufali nam
+                    </h2>
+                </div>
+
+                <div class="company__box">
+                    <img src="img/athlon.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+                <div class="company__box">
+                    <img src="img/avon1.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+                <div class="company__box">
+                    <img src="img/business-lease1.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+                <div class="company__box">
+                    <img src="img/daimler2.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+                <div class="company__box">
+                    <img src="img/driver-logo1.jpg" alt="Logo firmy" class="company__logo">
+                </div>
+                <div class="company__box">
+                    <img src="img/inteligo1.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+                <div class="company__box">
+                    <img src="img/mercedes-benz-leasing1.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+                <div class="company__box">
+                    <img src="img/santander1.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+                <div class="company__box">
+                    <img src="img/vb lesing1.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+                <div class="company__box company__box-big">
+                    <img src="img/mercedes-benz mb-motors1.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+                <div class="company__box company__box-big">
+                    <img src="img/Peugeot1.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+                <div class="company__box company__box-big">
+                    <img src="img/citroen.jpg" alt="Logo firmy Athlon" class="company__logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work">
+        <div class="u-center-text u-margin-bottom">
+            <h2 class="heading-secondary">
+                Praca
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="work__box u-margin">
+                    <div class="u-center-text">
+                        <i class="work__icon fas fa-eye"></i>
+                        <h3 class="work__title">Oferta pracy</h3>
+                    </div>
+                    <p class="work__description u-margin-bottom-small">
+                        W związku z dynamicznym rozwojem naszej firmy poszukujemy odpowiedzialnych osób
+                        do pracy na stanowisko kierowcy oraz Młodszego Specjalisty ds. Technicznych.
+
+                    </p>
+                    <p class="work__description">
+                        Oferta:
+                        <ul class="work__list u-margin-bottom-small">
+                            <li class="work__item">
+                                <p class="work__item-text">dla studentów w wieku 21 do 26 lat studiów dziennych i
+                                    niestacjonarnych
+                                </p>
+                            </li>
+                            <li class="work__item">
+                                <p class="work__item-text">praca w wymiarze pełnego etatu dla studentów
+                                    niestacjonarnych jak również dorywcza dla studentów studiów dziennych
+                                </p>
+                            </li>
+                            <li class="work__item">
+                                <p class="work__item-text">
+                                    wynagrodzenie zależne od ilości przepracowanych godzin
+                                </p>
+                            </li>
+                            <li class="work__item">
+                                <p class="work__item-text">
+                                    zwrot kosztów dojazdów w czasie wykonywania pracy
+                                </p>
+                            </li>
+                            <li class="work__item">
+                                <p class="work__item-text">
+                                    zlecenia na terenie Warszawy jak i całego kraju.
+                                </p>
+                            </li>
+                        </ul>
+                        <p class="work__description">
+                            Zainteresowane osoby prosimy o przesyłanie CV na poniższy adres email:
+                        </p>
+                        <a class="work__mail" href='mailto:praca@simple-rent.pl'>
+                            praca@simple-rent.pl
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <div class="work__imageBox">
+                    <img src="img/work.jpg" alt="Dwie osoby podające sobie dłonie po zakończonej rozmowie"
+                        class="work__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="u-margin">
+                    <h4 class="heading-fourth u-margin-top">Jesteś zainteresowany współpracą?</h4>
+                    <p class="footer__contact">Skontaktuj się z nami</p>
+                </div>
+            </div>
+            <div class="col-1-of-2 u-center-text">
+                <img src="img/simple.svg" alt="Full logo" class="footer__logo u-margin-top">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="half">
+                    <div class="u-margin">
+                        <h5 class="heading-fifth">Biuro Obsługi Klienta</h5>
+                        <h5 class="heading-fifth heading-fifth--margin"><a class="footer__mail"
+                                href="">bok@simple-rent.pl</a></h5>
+
+                        <h5 class="heading-fifth">Sebastian Piskorek</h5>
+                        <h5 class="heading-fifth heading-fifth--color">+48 602 339 503</h5>
+                        <h5 class="heading-fifth heading-fifth--margin"><a class="footer__mail"
+                                href="">sebastian.piskorek@simple-rent.pl</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="half">
+                    <div class="u-margin">
+                        <h5 class="heading-fifth heading-fifth--margin">Dział Handlowy</h5>
+                        <h5 class="heading-fifth">Grzegorz Bieńkowski</h5>
+                        <h5 class="heading-fifth heading-fifth--color">+48 602 339 502</h5>
+                        <h5 class="heading-fifth"><a class="footer__mail" href="">grzegorz.bienkowski@simple-rent.pl</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

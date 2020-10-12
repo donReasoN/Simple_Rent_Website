@@ -1,0 +1,21 @@
+.footer {
+    background-color: black;
+    padding: 15rem 0;
+    color: white;
+
+    &__contact {
+        font-size: $font-size-big;
+        color: $color-gray-light;
+    }
+
+    &__logo {
+        width: 40rem;
+        border-bottom: 1px solid white;
+    }
+
+    &__mail {
+        text-decoration: none;
+        color: $color-gray-light;
+        font-size: $font-size-medium;
+    }
+}
